@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import { FloatingNav } from "./components/ui/FloatingNavbar"
 import { FaHome } from "react-icons/fa"
 import Grid from "./components/Grid"
+import Projects from "./components/Projects"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         />
         <Hero />
         <Grid />
+        <Projects />
       </div>
     </main>
   )
