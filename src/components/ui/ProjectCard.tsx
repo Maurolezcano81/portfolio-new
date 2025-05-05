@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { cn } from "../../lib/cn";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export function ProjectCard({ project, onClick }: { project: any, onClick: any }) {
+  const { t } = useTranslation('projects')
   return (
     <motion.div
       whileHover={{ scale: 1.03 }}
@@ -42,8 +44,8 @@ export function ProjectCard({ project, onClick }: { project: any, onClick: any }
               ))}
             </div>
 
-            <button onClick={onClick} className="text-purple-600 flex items-center">
-              Ver
+            <button onClick={onClick} className="text-purple mr-2 flex items-center">
+              {t('cta')}
             </button>
           </div>
         </div>
