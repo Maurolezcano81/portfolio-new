@@ -9,7 +9,7 @@ export function Tools() {
             <InfiniteMovingCards
                 items={frontend}
                 direction="right"
-                speed="slow"
+                speed="fast"
             />
         </div>
     );
