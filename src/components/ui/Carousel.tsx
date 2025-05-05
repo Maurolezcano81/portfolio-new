@@ -2,9 +2,8 @@ import { useState, useRef, useId, useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
 interface SlideData {
-  title: string;
-  button: string;
   src: string;
+  title: string;
 }
 
 interface SlideProps {
