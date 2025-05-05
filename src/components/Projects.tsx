@@ -105,7 +105,7 @@ const Projects = () => {
         { title: "", src: '/op3.png' },
         { title: "", src: '/op4.png' },
       ],
-      link: "https://github.com/Maurolezcano81/Divs-Scripts-Project-1",
+      link: "https://maurolezcanoportfolio.netlify.app/",
     }
 
 
