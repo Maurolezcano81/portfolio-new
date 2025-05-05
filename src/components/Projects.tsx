@@ -128,7 +128,7 @@ const Projects = () => {
       {isModalOpen && currentProject && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="p-8 rounded-lg w-[80%] md:w-[60%]">
-            <button onClick={closeModal} className="absolute top-4 right-4 text-xl text-gray-700">X</button>
+            <button onClick={closeModal} className="absolute top-4 right-4 text-3xl text-white">X</button>
             {
               currentProject && (
                 <Carousel slides={currentProject.carouselSlides} />
