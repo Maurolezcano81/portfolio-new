@@ -1,3 +1,8 @@
 {
-    "home": "Home"
+    "home": "Home",
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "techs": "Tools",
+    "footer": "Contact me"
 }

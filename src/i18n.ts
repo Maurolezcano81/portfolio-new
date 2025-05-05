@@ -11,17 +11,32 @@ import enGrid from "./locales/en/grid.json";
 import esNavbar from "./locales/es/navbar.json";
 import enNavbar from "./locales/en/navbar.json";
 
+import esExperience from './locales/es/experience.json';
+import enExperience from './locales/en/experience.json'
+
+import esProjects from './locales/es/projects.json';
+import enProjects from './locales/en/projects.json';
+
+import esFooter from './locales/es/footer.json';
+import enFooter from './locales/en/footer.json';
+
 i18n.use(initReactI18next).init({
     resources: {
         es: {
             hero: esHero,
             navbar: esNavbar,
-            grid: esGrid
+            grid: esGrid,
+            experience: esExperience,
+            projects: esProjects,
+            footer: esFooter,
         },
         en: {
             hero: enHero,
             navbar: enNavbar,
-            grid: enGrid
+            grid: enGrid,
+            experience: enExperience,
+            projects: enProjects,
+            footer: enFooter,
         },
     },
     lng: localStorage.getItem("lang") || "es",

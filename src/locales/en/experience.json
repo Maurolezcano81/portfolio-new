@@ -1,0 +1,13 @@
+{
+    "title": "Projects & Experience",
+    "subtitle": "From personal initiatives to professional roles, every challenge pushes me to grow.",
+
+    "comforgas_title": "Conforgas – Junior Frontend Developer  (6 months)",
+    "comforgas_subtitle": "Enhanced user experience and built a mobile app with real-time location to streamline product management and delivery.",
+
+    "hrm_title": "Human Resources Management System (2024)",
+    "hrm_subtitle": "Fullstack academic project. I analyzed a real need, conducted research, and documented the system with UML and entity-relationship diagrams. Designed a clear and intuitive UI. Built a relational database and developed both the frontend with React and the backend using Node.js, Express, and MySQL. Managed the project with Scrum methodology and Trello. Implemented dashboards with reports and statistical charts to support decision-making.",
+
+    "nc_title": "No Country (Remote Internship 2025)",
+    "nc_subtitle": "Frontend developer internship in collaborative teams, working with React and React Native on time-sensitive projects. Participated in the development of an AI-based emotional assistant, a homebanking simulator, and a job search platform similar to LinkedIn. Strengthened soft skills and teamwork, and gained experience with tools like TypeScript and modern UI libraries."
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Proyectos y Experiencia",
+    "subtitle": "Desde iniciativas personales hasta roles profesionales, cada reto me impulsa a crecer.",
+
+    "comforgas_title": "Conforgas – Frontend Junior (Mar 2024 - Oct 2024)",
+    "comforgas_subtitle": "Mejoré la experiencia de usuario y desarrollé una app móvil con localización en tiempo real para optimizar la gestión y entrega de productos.",
+
+    "hrm_title": "Sistema Gestor de Recursos Humanos (2024)",
+    "hrm_subtitle": "Proyecto académico fullstack. Analicé una necesidad real, investigué y documenté el sistema, elaboré diagramas UML y entidad-relación. Diseñé una interfaz clara e intuitiva. Creé una base de datos relacional y desarrollé tanto el frontend con React como el backend con Node.js, Express y MySQL. Gestioné el proyecto con metodología Scrum y Trello. Implementé dashboards con reportes y gráficos estadísticos para la toma de decisiones.",
+
+    "nc_title": "No Country (Pasantía Remota) 2025",
+    "nc_subtitle": "Pasantía como desarrollador frontend en equipos colaborativos, trabajando con tecnologías como React y React Native en proyectos con tiempos de entrega ajustados. Participé en el desarrollo de un asistente emocional con IA, un simulador de homebanking, y una plataforma de búsqueda laboral similar a LinkedIn. Fortalecí habilidades blandas y de trabajo en equipo, y aprendí nuevas herramientas como TypeScript y librerías UI modernas."
+}

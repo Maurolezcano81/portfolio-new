@@ -1,9 +1,10 @@
 import { useTranslation } from "react-i18next"
 import Hero from "./components/Hero"
 import { FloatingNav } from "./components/ui/FloatingNavbar"
-import { FaHome } from "react-icons/fa"
 import Grid from "./components/Grid"
 import Projects from "./components/Projects"
+import Footer from "./components/Footer"
+import { TimelineDemo } from "./components/Timeline"
 
 function App() {
 
@@ -15,13 +16,27 @@ function App() {
         <FloatingNav
           navItems={[
             {
-              name: t('home'), link: "#home", icon: <FaHome />
+              name: t('home'), link: "#home"
+            },
+            {
+              name: t('about'), link: "#about"
+            },
+            {
+              name: t('experience'), link: "#experience"
+            },
+            {
+              name: t('projects'), link: "#projects"
+            },
+            {
+              name: t('footer'), link: "#contact"
             }
           ]}
         />
         <Hero />
         <Grid />
+        <TimelineDemo/>
         <Projects />
+        <Footer />
       </div>
     </main>
   )
