@@ -20,7 +20,7 @@ import {
   }
   
   export const ThemeProvider = ({ children }: ThemeProviderProps) => {
-    const [theme, setTheme] = useState<Theme>("light");
+    const [theme, setTheme] = useState<Theme>("dark");
   
     useEffect(() => {
       const storedTheme = localStorage.getItem("theme") as Theme | null;
