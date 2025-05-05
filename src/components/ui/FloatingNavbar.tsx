@@ -58,7 +58,7 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit fixed top-10 inset-x-0 mx-auto border rounded-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] border-white/[0.2] z-[5000] px-10 pl-8 py-5 items-center justify-center space-x-4 bg-black",
+          "flex max-w-fit fixed top-10 inset-x-0 mx-auto border rounded-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] border-white/[0.2] z-[5000] px-10 pl-8 py-5 items-center justify-center md:space-x-4 bg-black",
           className
         )}
       >
@@ -77,12 +77,11 @@ export const FloatingNav = ({
 
         <button
           onClick={toggleLanguage}
-          className="text-sm text-white bg-neutral-700 hover:bg-neutral-600 rounded-full px-3 py-1"
+          className="text-sm text-white bg-neutral-700 hover:bg-neutral-600 rounded-full px-3 py-1 mr-1"
         >
           {i18n.language === "es" ? "EN" : "ES"}
         </button>
 
-        {/* Botón tema */}
         <button
           onClick={toggleTheme}
           className="text-sm text-white bg-neutral-700 hover:bg-neutral-600 rounded-full px-3 py-1"
