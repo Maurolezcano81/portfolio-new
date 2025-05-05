@@ -52,7 +52,7 @@ const Hero = () => {
                                     />
                                 </a>
 
-                                <a href="#about">
+                                <a href="#projects">
                                     <MagicButton
                                         title={t('cta')}
                                         icon={
