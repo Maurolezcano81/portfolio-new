@@ -4,7 +4,6 @@ import { cn } from "../../lib/cn";
 
 export const PinContainer = ({
   children,
-  title,
   href,
   className,
   containerClassName,
