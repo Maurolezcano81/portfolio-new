@@ -23,7 +23,7 @@ export function ProjectCard({ project, onClick }: { project: any, onClick: any }
 
         <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex flex-col justify-between p-4">
           <div className="z-10 relative">
-            <a href={project.link} target="_BLANK" className="flex underline gap-2 items-center">
+            <a href={project.link} target="_BLANK" className="!text-white flex underline gap-2 items-center">
               {project.title}
               <FaExternalLinkAlt />
             </a>
