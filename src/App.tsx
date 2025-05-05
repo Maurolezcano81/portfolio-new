@@ -5,6 +5,7 @@ import Grid from "./components/Grid"
 import Projects from "./components/Projects"
 import Footer from "./components/Footer"
 import { TimelineDemo } from "./components/Timeline"
+import { Tools } from "./components/Tools"
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
         <Grid />
         <TimelineDemo/>
         <Projects />
+        <Tools />
         <Footer />
       </div>
     </main>

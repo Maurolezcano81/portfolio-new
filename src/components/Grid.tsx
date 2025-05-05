@@ -1,4 +1,3 @@
-import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 import { useTranslation } from 'react-i18next';
 
@@ -14,7 +13,7 @@ const Grid = () => {
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/mockup.png",
       spareImg: "",
     },
     {
